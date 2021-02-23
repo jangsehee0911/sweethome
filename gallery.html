@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>갤러리 | 스위트홈</title>
+  <link rel="shortcut icon" href="./img/favicon.jpg">
+  <!-- 웹 폰트 nNoto Sans KR -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/sub.css">
+   <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 1000px)">
+  <script src="./js/jquery-3.5.1.min.js"></script>
+  <script src="./js/main.js"></script>
+
+</head>
+<body id="gallery">
+  <div class="container">
+    <header id="main_header">
+      <div class="header_box">
+        <h1>
+          <img src="./img/logo.png" 
+          alt="스위트홈">
+        </h1>
+        <p>12월 18일 대공개</p>
+        <ul class="sns">
+          <li>
+            <a href="#">
+              <img src="./img/netflix.png">
+            </a>
+          </li>
+        </ul>
+      </div><!-- end header_box -->
+      <button class="btn-toggle">
+        <img src="./img/Icon_menu.png" alt="toggle">
+      </button>
+    </header>
+
+    <nav id="gnb">
+      <ul>
+        <li ><a href="./">홈</a></li>
+        <li><a href="./video.html">예고편</a></li>
+        <li ><a href="./index.html?synop=1">시놉시스</a></li>
+        <li class="active"><a href="./gallery.html">갤러리</a></li>
+      </ul>
+      <button class="btn-close">
+        <img src="./img/Icon_close.png" alt="닫기 버튼">
+      </button>
+    </nav>
+  </div>
+
+    <section id="main">
+      <figure>
+        <img src="./img/img1.JPG" alt="01">
+      </figure>
+      <ul class="thumb">
+        <li><a href="#"><img src="./img/img1.JPG" alt="1"></a></li>
+        <li><a href="#"><img src="./img/img2.JPG" alt="2"></a></li>
+        <li><a href="#"><img src="./img/img3.JPG" alt="3"></a></li>
+        <li class="clear"><a href="#"><img src="./img/img4.JPG" alt="4"></a></li>
+        <li><a href="#"><img src="./img/img5.JPG" alt="5"></a></li>
+        <li><a href="#"><img src="./img/img6.JPG" alt="6"></a></li>
+      </ul>
+    </section>
+  </div><!-- end container -->
+
+  <footer id="main_footer">
+      <ul class="sns">
+        <li>
+          <a href="#">
+            <img src="./img/netflix.png" alt="넷플릭스"> <br>예고편 더 보러가기
+          </a>
+        </li>
+      </ul>
+  </footer>    
+</body>
+</html>
